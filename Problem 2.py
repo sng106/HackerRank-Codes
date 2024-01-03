@@ -1,5 +1,5 @@
 '''
-The provided code stub reads two integers from STDIN a, and b. 
+The provided  stub reads two integers from STDIN a, and b. 
 Output:
 a+b
 a-b
