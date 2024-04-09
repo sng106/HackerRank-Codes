@@ -1,5 +1,5 @@
 '''
-Same as 9th one but here you can use appendleft, popleft like some new built in functions using impoting deque 
+Same as 8th one but here you can use appendleft, popleft like some new built in functions using impoting deque 
 '''
 
 from collections import deque
