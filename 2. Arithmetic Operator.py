@@ -1,6 +1,6 @@
 '''
 The provided  stub reads two integers from STDIN a, and b. 
-Output:
+Output: 
 a+b
 a-b
 a*b
