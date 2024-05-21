@@ -51,4 +51,25 @@ for i in range(n):
         print(col)
     else:
         print("Error")
+
+#or
+
+N = int(input())
+lst = []
+args = []
+switch = {
+    "insert": lambda: lst.insert(int(args[0]), int(args[1])),
+    "print": lambda: print(lst),
+    "remove": lambda: lst.remove(int(args[0])),
+    "append": lambda: lst.append(int(args[0])),
+    "sort": lambda: lst.sort(),
+    "pop": lambda: lst.pop(),
+    "reverse": lambda: lst.reverse(),
+}
+
+for i in range(N):
+    args = input().split()
+    command = args.pop(0)
+    switch.get(command)()
+
     
