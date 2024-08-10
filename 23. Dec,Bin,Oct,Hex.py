@@ -1,4 +1,4 @@
-Input:
+'''Input:
 5
 
 Output:
@@ -7,7 +7,7 @@ Output:
   3   3   3  11
   4   4   4 100
   5   5   5 101
-
+'''
 def print_formatted(number):
     width = len(bin(number)) - 2  # Determine the width needed for the binary representation
     
