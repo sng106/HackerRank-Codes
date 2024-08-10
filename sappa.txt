@@ -1,3 +1,2 @@
 print(helloworld)
-my lord
 
